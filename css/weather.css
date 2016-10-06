@@ -1,0 +1,82 @@
+#container {
+	margin-top: 150px;
+	margin-right: 50px;
+	margin-bottom: 150px;
+	margin-left: 50px;
+}
+.circle-container{
+
+}
+.circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 5px #552BD4;
+    display: inline-block;
+    position: absolute;
+    font-family: "Mallanna", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    vertical-align: top;
+    color: #552BD4;
+}
+#circle-big{
+    width: 300px;
+    height: 300px;
+    margin: 155px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #7ec0ee;
+    position: absolute;
+    overflow: hidden;
+}
+iframe{
+    height: 400px;
+    width: 400px;
+}
+.one{
+	top: 255px;
+    left: 0px;
+    position:relative;
+}
+.one > div > p > i{
+	font-size:40px;
+}
+#outer-square{
+    width: 610px;
+    height: 610px;
+}
+.one > div > p{
+	font-size: 40px;
+}
+.two {
+    top: 0px;
+    right: -155px;
+    position:relative;
+    font-size: 40px;
+}
+.three {
+    bottom: -255px;
+    right: -300px;
+    position:relative;
+}
+.three > div > p{
+    font-weight:bold;
+}
+.three > div > p > i{
+    font-size: 40px;
+}
+.four {
+    bottom: -505px;
+    right: 50px;
+    position:relative;
+}
+.four > div > p{
+	font-size: 30px;
+}
+.text-container{
+	position:absolute;
+	right:50%;
+	bottom:50%;
+	transform: translateX(50%) translateY(50%);
+
+}
