@@ -23,6 +23,10 @@ $.getJSON('http://ipinfo.io', function(data){
 	    var hours = date.getHours();
 	    var mins = date.getMinutes();
 
+	    if (mins < 10){
+	    	mins = ('0' + mins);
+	    }
+
 	    return hours+":"+mins;
 	  }
 
