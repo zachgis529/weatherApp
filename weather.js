@@ -35,7 +35,7 @@ $.getJSON('http://ipinfo.io', function(data){
 	  $(".two").append("<div class = 'text-container'><i class = 'wi wi-owm-"+weatherId+"'></i></div>");
 	  $(".three").append("<div class = 'text-container'><p>"+windSpeed+"mph<i class = 'wi wi-wind towards-"+windAngle+"-deg'></i></p></div>");
 	  $(".four").append("<div class = 'text-container'><p>"+getTime()+"</p></div>");
-	  $("#circle-big").append("<iframe src="+mapUrl+"></iframe>");
+	  $("#circle-big").append("<div id = 'iframe-container'><iframe src="+mapUrl+"></iframe></div>");
 
 	  
 	  /*$("#temp").append("<p>"+tempF+"</p>");
