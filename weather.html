@@ -3,18 +3,24 @@
 <head>
 <meta charset="UTF-8">
 	<title>Weather App</title>
-	<link rel="stylesheet" type="text/css" href="C:\Users\Zach\Documents\zachmarschik.com\weatherapp\css\weather.css">
-	<link rel="stylesheet" type="text/css" href="C:\Users\Zach\Documents\zachmarschik.com\weatherapp\css\weather-icons.css">
-	<link rel="stylesheet" type="text/css" href="C:\Users\Zach\Documents\zachmarschik.com\weatherapp\css\weather-icons-wind.css">
+	<link rel="stylesheet" type="text/css" href="css\weather.css">
+	<link rel="stylesheet" type="text/css" href="css\weather-icons.css">
+	<link rel="stylesheet" type="text/css" href="css\weather-icons-wind.css">
 	<link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
-	<!--<link rel="stylesheet" type="text/css" href="C:\Users\zmarsch\Documents\Git\bootstrap\css\bootstrap.min">-->
+
+    
 	<script src="http://zachmarschik.com/jquery.js"></script>
     <script src="weather.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPk_QpaCEvrNqWTHz0DhwEdF3wPge6nLE"></script>-->
+    <script src="http://openlayers.org/en/v3.18.2/build/ol.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div id = "container">
   <div id = "outer-square">
     <div id = "circle-big">
+      <div id = "map">
+      </div>
     </div>
     <div class = "circle one">
     </div>
@@ -23,6 +29,8 @@
     <div class = "circle three">
     </div>
     <div class = "circle four">
+    </div>
+    <div id = "basicMap">
     </div>
   </div>
 </div>
