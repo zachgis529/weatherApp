@@ -24,18 +24,16 @@
     width: 300px;
     height: 300px;
     margin: 155px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #7ec0ee;
+    box-shadow: 0px 0px 5px #552BD4;
     position: absolute;
     overflow: hidden;
-}
-iframe{
-    height: 200px;
-    width: 200px;
 }
 #iframe-container{
     height: 200px;
     width: 200px;
+}
+#map{
+    height:100%;
 }
 .one{
 	top: 255px;
